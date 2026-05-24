@@ -7,14 +7,7 @@ To write a program to predict the type of species of the Iris flower using the S
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1.Import the required library and read the dataframe.
-
-2.Write a function compute Cost to generate the cost function.
-
-3.Perform iterations of gradient steps with learning rate.
-
-4.Plot the Cost function using Gradient Descent and generate the required graph.
-
+1.Load the Iris dataset and select features (X) and target variable (Y) representing species. 2.Split the dataset into training and testing sets using train_test_split(). 3.Create the SGDClassifier() model and train it using fit(X_train, y_train). 4.Predict species using test data, evaluate accuracy, and display the results.
 ## Program:
 ```
 /*
